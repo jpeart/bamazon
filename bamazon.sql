@@ -8,3 +8,5 @@ CREATE TABLE products(
   stock INT(10),
   PRIMARY KEY(itemID)
 );
+
+-- SELECT itemID, product_name, price FROM products WHERE stock > 0 
